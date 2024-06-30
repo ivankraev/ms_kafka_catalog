@@ -308,6 +308,11 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@faker-js/faker@^8.4.1":
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.4.1.tgz#5d5e8aee8fce48f5e189bf730ebd1f758f491451"
+  integrity sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -733,6 +738,11 @@
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.7.tgz#50ae4353eaaddc04044279812f52c8c65857dbcb"
   integrity sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==
+
+"@types/rosie@^0.0.45":
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/@types/rosie/-/rosie-0.0.45.tgz#60c50ba496c36fa2018321ae1a224fb1d679413a"
+  integrity sha512-t3ZEJ4xIE5CaJnsWcU+nY8R7rhvIEfX2xHNpvK6mA+CwUyvYJJ7SdU+pIodqTv0w4I0cBCWuJ4wzmwZOsjZdOg==
 
 "@types/send@*":
   version "0.17.4"
@@ -2569,6 +2579,11 @@ resolve@^1.20.0:
     is-core-module "^2.13.0"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
+
+rosie@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/rosie/-/rosie-2.1.1.tgz#f8c9b8145d581d19fb1c933cf6ac1c554ad68798"
+  integrity sha512-2AXB7WrIZXtKMZ6Q/PlozqPF5nu/x7NEvRJZOblrJuprrPfm5gL8JVvJPj9aaib9F8IUALnLUFhzXrwEtnI5cQ==
 
 safe-buffer@5.2.1:
   version "5.2.1"
