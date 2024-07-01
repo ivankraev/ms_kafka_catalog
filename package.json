@@ -7,12 +7,15 @@
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
     "build": "tsc -p .",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "express": "^4.19.2"
   },
   "devDependencies": {
