@@ -13,3 +13,11 @@ export class CreateProductDto {
   @IsNumber()
   stock: number;
 }
+
+export class UpdateProductDto {
+  name?: string;
+  description?: string;
+  @Min(1)
+  price?: number;
+  stock?: number;
+}

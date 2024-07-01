@@ -11,7 +11,7 @@ export class CatalogRepository implements ICatalogRepository {
   delete(id: number): Promise<{ id: number }> {
     throw new Error("Method not implemented.");
   }
-  find(): Promise<Product[]> {
+  find(limit: number, offset: number): Promise<Product[]> {
     throw new Error("Method not implemented.");
   }
   findOne(id: number): Promise<Product> {
